@@ -11,6 +11,7 @@ def predict_stat(player_name, opponent, stat_type, stat_value):
 # Streamlit UI Setup
 st.title("NBA Player Performance Predictor")
 st.write("Predict if a player will perform higher or lower than a given stat.")
+st.write("**By Claude Simon**")  # Added author name
 
 # Fetch NBA teams
 team_data = teams.get_teams()
